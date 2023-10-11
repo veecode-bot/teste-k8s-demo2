@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "testek8sdo2"
+  annotations:
+    github.com/project-slug: veecode-bot/teste-k8s-demo2
+    backstage.io/techdocs-ref: dir:.
+    github.com/workflows: terraform-deploy.yml,terraform-destroy.yml
+spec:
+  type: devops
+  lifecycle: experimental
+  owner: "group:default/admin"

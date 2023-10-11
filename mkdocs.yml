@@ -1,0 +1,8 @@
+site_name: "testek8sdo2"
+site_description: 
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
